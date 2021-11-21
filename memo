@@ -1,0 +1,10 @@
+Reduxの仕組み　（3つからなる構成）
+
+1．State = 変数を最初に定義する場所
+2.Action = 変数のstateを変化させたい時にコンポーネントから呼ばれる場所
+例）when you have a button that increments the count,
+ its going to have that button when it clicked and all the increment action
+
+3.Reducer = 呼ばれたActionを基に実際に変化をさせる場所
+
+Actionを呼ばないと変化しない。
